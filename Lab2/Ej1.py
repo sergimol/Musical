@@ -8,6 +8,12 @@ CHUNK = 1024
 SRATE = 44100
 
 last = 0 # ultimo frame generado
+def oscChuckSawtooth(frec, vol):
+    global last # var global
+    data = vol * signal.sawtooth(2*np.pi*(np.arange(CHUNK,dtype="float32")+last)* frec/SRATE)
+    last += CHUNK # actualizamos ultimo generado
+    return np.float32(data)
+
 def oscChuckSquare(frec, vol):
     global last # var global
     data = vol * signal.square(2*np.pi*(np.arange(CHUNK,dtype="float32")+last)* frec/SRATE)
@@ -41,7 +47,7 @@ numBloque = 0 # contador de bloques/chunks
 print('\n\nProcessing chunks: ',end='')
 
 while c!= 'q': 
-    samples = oscChuckSquare(freq, vol)
+    samples = oscChuckSawtooth(freq, vol)
     # lo pasamos al stream
     stream.write(samples) # escribimos al stream
 
