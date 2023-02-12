@@ -1,17 +1,19 @@
 import numpy as np         # arrays    
 import sounddevice as sd   # modulo de conexión con portAudio
+from scipy import signal
+import kbhit               # para lectura de teclas no bloqueante
 import soundfile as sf     # para lectura/escritura de wavs
-import kbhit            # para lectura de teclas no bloqueante
 
 CHUNK = 1024
 SRATE = 44100
 
-def osc(dur, freq):
-    v = np.linspace(0, dur, int(SRATE*dur), endpoint=False)
-    w = np.sin(2 * np.pi * v)
-    return w
-
 last = 0 # ultimo frame generado
+def oscChuckSquare(frec, vol):
+    global last # var global
+    data = vol * signal.square(2*np.pi*(np.arange(CHUNK,dtype="float32")+last)* frec/SRATE)
+    last += CHUNK # actualizamos ultimo generado
+    return np.float32(data)
+
 def oscChuck(frec, vol):
     global last # var global
     data = vol * np.sin(2*np.pi*(np.arange(CHUNK,dtype="float32")+last)* frec/SRATE)
@@ -39,7 +41,7 @@ numBloque = 0 # contador de bloques/chunks
 print('\n\nProcessing chunks: ',end='')
 
 while c!= 'q': 
-    samples = oscChuck(freq, vol)
+    samples = oscChuckSquare(freq, vol)
     # lo pasamos al stream
     stream.write(samples) # escribimos al stream
 
