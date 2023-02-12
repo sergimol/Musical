@@ -4,7 +4,6 @@ import random as rd
 
 SRATE = 44100
 
-
 def osc(dur, freq):
     v = np.linspace(0, dur, int(SRATE*dur), endpoint=False)
     w = np.sin(2 * np.pi * freq * v)
