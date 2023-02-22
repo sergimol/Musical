@@ -19,7 +19,6 @@ stream = sd.OutputStream(samplerate=SRATE,
     blocksize=CHUNK,
     channels=1)
 
-# arrancamos stream
 stream.start()
 
 # partitura
@@ -31,11 +30,12 @@ part = [('G', 0.5), ('G', 0.5), ('a', 1), ('G', 1),
 
 i = 0
 while len(part) > i:
+    
     frec = 440 * (2**(notas.index(part[i][0])/12))
     dur = part[i][1]
 
     nota = osc(frec, dur, 1)
-    #silencio para separar las notas
+    # silencio para separar las notas
     nota = np.append(nota, np.zeros(5))
 
     stream.write(np.float32(nota))
