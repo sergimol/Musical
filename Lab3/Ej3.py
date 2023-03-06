@@ -19,6 +19,27 @@ def oscFM(fc,fm,beta,vol,frame):
 def osc(frec,vol):
     return np.float32(vol*np.sin(2*np.pi*(np.arange(CHUNK)+frame)*frec/SRATE))
 
+
+# Cross-fade de samples
+# def linear(u):
+#     return (1-u, u)
+
+# def quadratic_out(u):
+#     u = u * u
+#     return (1-u, u)
+
+# def mergeSamples(samples1, samples2, fade = quadratic_out):
+#     samples = np.zeros(samples1.shape)
+
+#     for i in range(samples.shape[0]):
+#         u = i / float(samples.shape[0])
+#         amp1, amp2 = fade(u)
+#         samples[i] = samples1[i] * amp1 + samples2[i] * amp2
+
+#     return samples
+
+
+
 WIDTH = 640 # ancho y alto de la ventana de PyGame
 HEIGHT = 480
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
@@ -36,11 +57,14 @@ beta = 1
 vol = 0.8
 frame = 0
 
+samples = np.zeros(CHUNK) 
 
 while(loop):
     
-    #samples = oscFM(fc,fm,beta,vol,frame)
-    samples = osc(fc, vol)
+    samples = oscFM(fc,fm,beta,vol,frame)
+    #samples = osc(fc, vol)
+    #samples = mergeSamples(samples, osc(fc, vol))
+    
     stream.write(np.float32(0.5*samples)) 
     frame += CHUNK
 
