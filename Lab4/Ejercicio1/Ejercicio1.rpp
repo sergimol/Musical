@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "6.77/win64" 1678816120
+<REAPER_PROJECT 0.1 "6.77/win64" 1678904131
   <NOTES 0 2
   >
   RIPPLE 0
@@ -16,7 +16,7 @@
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 0
+  CURSOR 6
   ZOOM 100 0 0
   VZOOMEX 6 0
   USE_REC_CFG 0
@@ -60,8 +60,8 @@
   GLOBAL_AUTO -1
   TEMPO 80 4 4
   PLAYRATE 1 0 0.25 4
-  SELECTION 0 12
-  SELECTION2 0 12
+  SELECTION 3 3
+  SELECTION2 3 3
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0 0
   MASTERPEAKCOL 16576
@@ -153,7 +153,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {EE929E07-D479-404F-8D8C-4F34BAA2BF08}
       IID 1
       NAME "Ejerc1 Curso20-21 - comienzoNavidad.mid"
@@ -196,36 +196,36 @@
         E 1440 90 4c 00
         E 480 90 4d 54
         E 720 80 4d 00
-        E 0 90 4d 54
+        E 0 90 4d 48
         E 480 80 4d 00
-        E 0 90 4d 54
+        E 0 90 4d 62
         E 240 80 4d 00
-        E 0 90 4d 54
+        E 0 90 4d 63
         E 240 80 4d 00
         E 240 90 4d 54
         E 240 80 4d 00
-        E 0 90 4d 54
+        E 0 90 4d 4c
         E 240 80 4d 00
         E 0 90 4c 54
         E 240 80 4c 00
+        E 0 90 4c 31
+        E 240 80 4c 00
+        E 240 90 4c 64
+        E 240 80 4c 00
+        E 0 90 4c 44
+        E 240 80 4c 00
         E 0 90 4c 54
         E 240 80 4c 00
-        E 240 90 4c 54
-        E 240 80 4c 00
-        E 0 90 4c 54
-        E 240 80 4c 00
-        E 0 90 4c 54
-        E 240 80 4c 00
-        E 0 90 4a 54
+        E 0 90 4a 4b
         E 240 80 4a 00
-        E 240 90 4a 54
+        E 240 90 4a 40
         E 240 80 4a 00
-        E 0 90 4c 54
+        E 0 90 4c 42
         E 240 80 4c 00
-        E 0 90 4a 54
+        E 0 90 4a 62
         E 960 80 4a 00
-        E 0 90 43 54
-        E 1920 80 43 00
+        e 0 90 43 5c
+        e 1920 80 43 00
         E 0 b0 7b 00
         CCINTERP 32
         CHASE_CC_TAKEOFFS 1
@@ -233,7 +233,7 @@
         IGNTEMPO 0 120 4 4
         SRCCOLOR 3
         VELLANE -1 100 0
-        CFGEDITVIEW -437.467001 0.089062 44 12 0 -1 0 0 0 0.5
+        CFGEDITVIEW 14359.161905 0.089062 44 12 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 0
         EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
@@ -403,7 +403,7 @@
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 0
+    SEL 1
     REC 0 5056 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 88 0 0 0 0 0
@@ -453,7 +453,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {BE3DCB19-92CB-401B-BEB4-63A9A7C4202B}
       IID 1
       NAME "Ejerc1 Curso20-21 - comienzoNavidad.mid"
