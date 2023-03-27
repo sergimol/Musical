@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "6.78/win64" 1679532051
+<REAPER_PROJECT 0.1 "6.77/win64" 1679954150
   <NOTES 0 2
   >
   RIPPLE 0
@@ -16,7 +16,7 @@
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 0
+  CURSOR 0.97314622202686
   ZOOM 10.2759480267745 0 0
   VZOOMEX 7.80603456 0
   USE_REC_CFG 0
@@ -74,7 +74,7 @@
   MASTER_FX 1
   MASTER_SEL 0
   <MASTERFXLIST
-    WNDRECT 24 52 655 408
+    WNDRECT 24 52 716 282
     SHOW 0
     LASTSEL 0
     DOCKED 0
@@ -115,7 +115,7 @@
     PPT 58.393413754588 1 4 0 
     PPT 61.174052504806 0.5 3 0 
     PPT 63.954691255025 0 4 0 
-    PPT 66.735330005243 0.5 3 0 
+    PPT 66.73533 0.5 3 0 
   >
   <MASTERPLAYSPEEDENV
     EGUID {491DF16F-6EA0-48E0-8132-342DF64D0A6B}
@@ -132,7 +132,7 @@
     LANEHEIGHT 0 0
     ARM 0
     DEFSHAPE 1 -1 -1
-    PT 0.000000000000 108.9200000000 1 262148 0 1
+    PT 0.000000000000 108.9100000000 1 262148 0 1
   >
   MARKER 1 0 Intro 1 0 1 R {BDA6C136-5D8C-40BD-841F-A17F44BFD69A}
   MARKER 1 40.32659794842443 "" 1 0 1 R
@@ -157,6 +157,106 @@
   MARKER 7 237.75501182649643 Outro 0 0 1 R {9EE0A8CF-3014-43FF-B689-FE3F1A798196}
   <PROJBAY
   >
+  <TRACK {2DE65170-67EF-4A54-BC89-B5FABADD5317}
+    NAME Reverb
+    PEAKCOL 17554688
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {2DE65170-67EF-4A54-BC89-B5FABADD5317}
+    PERF 0
+    AUXRECV 2 0 0.29907261314897 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 7 0 0.16453487933363 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 10 0 0.08509510175675 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 13 0 0.08056885319319 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 18 0 0.09386103363646 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 19 0 0.09386103363646 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 20 0 0.19649079231054 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 21 0 0.17998013501607 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 22 0 0.28746169243863 0 0 0 0 0 0 -1:U 0 -1 ''
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 24 52 655 408
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VST: OrilRiver (x86) (Denis Tihanov)" OrilRiver.dll 0 "" 1953983342<56535474776B6E6F72696C7269766572> ""
+        bmt3dO5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAtwAAAAEAAAAAABAA
+        pwAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAC4HoXrUbjuP/YoXI/C9ew//JGlxsTX1D/sUbgehevZPx+F61G4Hu0/ZmZmZmZm3j9kq8AP4ZrtP9y/2Y5CyuQ/
+        q6qqqqqq4D+JNx+U6BblP7y7u7u7u98/m722eN1F4j/NzMzMzMzcPwAAAEC5lOs/AAAAgHd35z8AAAAAAADwPwICAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {E911ECC1-EFAE-4208-9D20-04A891751044}
+      WAK 0 0
+    >
+  >
+  <TRACK {F43E3988-E683-4BE4-89F1-D547CEAF4F87}
+    NAME Echo
+    PEAKCOL 31850702
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SEL 1
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {F43E3988-E683-4BE4-89F1-D547CEAF4F87}
+    PERF 0
+    AUXRECV 2 0 0.46415452868198 0 0 0 0 0 0 -1:U 0 -1 ''
+    <AUXMUTEENV
+      EGUID {C72187AF-504E-4E0D-8E40-8B4C52B3EBD5}
+      ACT 1 -1
+      VIS 1 1 1
+      LANEHEIGHT 0 0
+      ARM 1
+      DEFSHAPE 1 -1 -1
+      PT 0 0 1
+    >
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 437 167 734 436
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VST: ReaDelay (Cockos)" readelay.dll 0 "" 1919247468<5653547265646C72656164656C617900> ""
+        bGRlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAA0AAAAAEAAAAAABAA
+        AAAAAAAAAAAEAAAALAAAAAIAAAADAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAIA8nNEHMwAAgD8AAAAAAACAPwAAgD8AAIA/AAAAAAAAAAAAAIA/AAAAAAAAgDyc0Qcz
+        AACAPwAAAAAAAIA/AACAPwAAgD8AAIA/AAAAAAAAgD8AAAAAAACAPJzRBzMAAIA/AAAAAAAAgD8AAIA/AACAPwAAAAAAAAAAAACAPwAAAAAAAAA8Gqq1PpqZmT7dJAY9
+        AACAPwAAgD8AAIA/AACAPw==
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {2C1D5266-CB73-402B-A85F-E66885D6BE21}
+      WAK 0 0
+    >
+  >
   <TRACK {D287DB9D-71A3-4801-9C0A-561D1B489530}
     NAME Vocals
     PEAKCOL 33522257
@@ -167,9 +267,9 @@
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 1 1
-    BUSCOMP 2 0 0 0 0
+    BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -193,7 +293,7 @@
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -224,7 +324,7 @@
       CHANMODE 0
       GUID {0FFE6550-EA9F-407D-9595-DF06AF14DCF5}
       <SOURCE VORBIS
-        FILE "C:\Users\sergi\Desktop\I Want to Break Free\BackingVocals1.ogg"
+        FILE "BackingVocals1.ogg"
       >
     >
   >
@@ -240,7 +340,7 @@
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -271,7 +371,7 @@
       CHANMODE 0
       GUID {CAB36B30-A7EB-466B-80D9-60C293AC980E}
       <SOURCE VORBIS
-        FILE "C:\Users\sergi\Desktop\I Want to Break Free\BackingVocals2.ogg"
+        FILE "BackingVocals2.ogg"
       >
     >
   >
@@ -287,7 +387,7 @@
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -318,7 +418,7 @@
       CHANMODE 0
       GUID {2CF68CA1-EA54-4EDA-8FC9-2DC1D6BFBF3D}
       <SOURCE VORBIS
-        FILE "C:\Users\sergi\Desktop\I Want to Break Free\Vocals1.ogg"
+        FILE "Vocals1.ogg"
       >
     >
   >
@@ -334,7 +434,7 @@
     ISBUS 2 -1
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -365,7 +465,7 @@
       CHANMODE 0
       GUID {8F8FA502-E06A-4487-AA33-207BDF776412}
       <SOURCE VORBIS
-        FILE "C:\Users\sergi\Desktop\I Want to Break Free\Vocals2.ogg"
+        FILE "Vocals2.ogg"
       >
     >
   >
@@ -381,7 +481,7 @@
     ISBUS 1 1
     BUSCOMP 2 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -402,6 +502,11 @@
       POOLEDENVINST 1 154.21946216458301 33.36766500262161 0 1 0 0.5 1 1 0 0 1 0 0 0.012 0
       PT 0 0 0
     >
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+    >
   >
   <TRACK {6F6B9AAB-9AB3-40BB-B905-627117859277}
     NAME Keys1
@@ -415,7 +520,7 @@
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -446,7 +551,7 @@
       CHANMODE 0
       GUID {76EBABDD-6FA8-4A34-AA42-A1E1C679D3B2}
       <SOURCE VORBIS
-        FILE "C:\Users\sergi\Desktop\I Want to Break Free\Keys1.ogg"
+        FILE "Keys1.ogg"
       >
     >
   >
@@ -462,7 +567,7 @@
     ISBUS 2 -1
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -493,7 +598,7 @@
       CHANMODE 0
       GUID {7F1A2E81-FBAE-4B35-842B-05B269198B59}
       <SOURCE VORBIS
-        FILE "C:\Users\sergi\Desktop\I Want to Break Free\Keys2.ogg"
+        FILE "Keys2.ogg"
       >
     >
   >
@@ -509,7 +614,7 @@
     ISBUS 1 1
     BUSCOMP 2 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -529,7 +634,7 @@
       <VST "VST: ReaDelay (Cockos)" readelay.dll 0 "" 1919247468<5653547265646C72656164656C617900> ""
         bGRlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAATAAAAAEAAAAAABAA
         AAAAAAAAAAABAAAALAAAAAIAAAAAAAAAOWNePgAAgD8AAAAAAACAPwAAAAAAAIA8Kur1PQAAgD8AAAAAAACAPwAAgD8AAIA/AAAAPw==
-        AAAQAAAA
+        AFByb2dyYW0gMQAQAAAA
       >
       FLOATPOS 24 52 523 389
       FXID {C77A29CD-AE2B-476F-A966-BF60BB3D2346}
@@ -560,7 +665,7 @@
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -596,7 +701,7 @@
       CHANMODE 0
       GUID {3B2BF1F7-F68A-468F-966C-4186EAB600F4}
       <SOURCE VORBIS
-        FILE "C:\Users\sergi\Desktop\I Want to Break Free\LeadGuitar1.ogg"
+        FILE "LeadGuitar1.ogg"
       >
     >
   >
@@ -612,7 +717,7 @@
     ISBUS 2 -1
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -648,7 +753,7 @@
       CHANMODE 0
       GUID {C78F62D9-397B-4D08-ACCB-FEF665DC3032}
       <SOURCE VORBIS
-        FILE "C:\Users\sergi\Desktop\I Want to Break Free\LeadGuitar2.ogg"
+        FILE "LeadGuitar2.ogg"
       >
     >
   >
@@ -664,7 +769,7 @@
     ISBUS 1 1
     BUSCOMP 2 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -688,7 +793,7 @@
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -718,7 +823,7 @@
       CHANMODE 0
       GUID {0CFF1AE9-0E60-47AD-A6A6-2A6BF2246DD8}
       <SOURCE VORBIS
-        FILE "C:\Users\sergi\Desktop\I Want to Break Free\AcousticGuitar1.ogg"
+        FILE "AcousticGuitar1.ogg"
       >
     >
   >
@@ -734,7 +839,7 @@
     ISBUS 2 -1
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -764,7 +869,7 @@
       CHANMODE 0
       GUID {D26C9E6D-A596-431D-B8E7-EDC56D3FBBF9}
       <SOURCE VORBIS
-        FILE "C:\Users\sergi\Desktop\I Want to Break Free\AcousticGuitar2.ogg"
+        FILE "AcousticGuitar2.ogg"
       >
     >
   >
@@ -780,7 +885,7 @@
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -801,7 +906,7 @@
         cWVlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAArAAAAAEAAAAAABAA
         IQAAAAQAAAAAAAAAAQAAAD5/R6cTpktAtJz1AwFq4j8AAAAAAAAAQAEIAAAAAQAAADvdr5q4fW5AWnw+p6sbAkAAAAAAAAAAQAEIAAAAAQAAAHTgX1jtKZFAh8qP1b3D
         5D8AAAAAAAAAQAEBAAAAAQAAAOW61/SAPbZACh5TLxf64T8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAAAP0BAABcAQAAAgAAAA==
-        AAAQAAAA
+        AFByb2dyYW0gMQAQAAAA
       >
       FLOATPOS 0 0 0 0
       FXID {0BE86D41-BC57-4738-8BED-75E8F42AF702}
@@ -827,7 +932,7 @@
       CHANMODE 0
       GUID {798B5F1B-D9E4-4AB5-A4DD-6E2C65A7DF43}
       <SOURCE VORBIS
-        FILE "C:\Users\sergi\Desktop\I Want to Break Free\Bass.ogg"
+        FILE "Bass.ogg"
       >
     >
   >
@@ -843,7 +948,7 @@
     ISBUS 1 1
     BUSCOMP 2 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -911,7 +1016,7 @@
       CHANMODE 0
       GUID {CA2B8683-E2DE-45C1-9D2B-861C93B245B3}
       <SOURCE VORBIS
-        FILE "C:\Users\sergi\Desktop\I Want to Break Free\Room1.ogg"
+        FILE "Room1.ogg"
       >
     >
     <ITEM
@@ -933,7 +1038,7 @@
       CHANMODE 0
       GUID {58385911-4FC1-4B99-B7E4-18FE0D2610FA}
       <SOURCE VORBIS
-        FILE "C:\Users\sergi\Desktop\I Want to Break Free\Room1.ogg"
+        FILE "Room1.ogg"
       >
     >
     <ITEM
@@ -955,7 +1060,7 @@
       CHANMODE 0
       GUID {BF477A43-ECFE-4792-87BA-8403950BEC22}
       <SOURCE VORBIS
-        FILE "C:\Users\sergi\Desktop\I Want to Break Free\Room1.ogg"
+        FILE "Room1.ogg"
       >
     >
     <ITEM
@@ -977,7 +1082,7 @@
       CHANMODE 0
       GUID {12C620BB-011F-4E80-889B-9B53579875D2}
       <SOURCE VORBIS
-        FILE "C:\Users\sergi\Desktop\I Want to Break Free\Room1.ogg"
+        FILE "Room1.ogg"
       >
     >
   >
@@ -1023,7 +1128,7 @@
       CHANMODE 0
       GUID {528970B2-8B93-4F60-97F8-812872E728CA}
       <SOURCE VORBIS
-        FILE "C:\Users\sergi\Desktop\I Want to Break Free\Room2.ogg"
+        FILE "Room2.ogg"
       >
     >
     <ITEM
@@ -1045,7 +1150,7 @@
       CHANMODE 0
       GUID {B6654ABA-6E8D-4FFB-A59E-A8C8CD433E5A}
       <SOURCE VORBIS
-        FILE "C:\Users\sergi\Desktop\I Want to Break Free\Room2.ogg"
+        FILE "Room2.ogg"
       >
     >
     <ITEM
@@ -1067,7 +1172,7 @@
       CHANMODE 0
       GUID {E3F56DD3-085F-45DD-8B5E-688E25AC421A}
       <SOURCE VORBIS
-        FILE "C:\Users\sergi\Desktop\I Want to Break Free\Room2.ogg"
+        FILE "Room2.ogg"
       >
     >
     <ITEM
@@ -1089,7 +1194,7 @@
       CHANMODE 0
       GUID {AC2B6952-23D6-4237-9785-1232FE302A25}
       <SOURCE VORBIS
-        FILE "C:\Users\sergi\Desktop\I Want to Break Free\Room2.ogg"
+        FILE "Room2.ogg"
       >
     >
   >
@@ -1135,7 +1240,7 @@
       CHANMODE 0
       GUID {FD7DCF8B-46B0-4A18-8EA1-402279B1971A}
       <SOURCE VORBIS
-        FILE "C:\Users\sergi\Desktop\I Want to Break Free\Snare1.ogg"
+        FILE "Snare1.ogg"
       >
     >
   >
@@ -1181,7 +1286,7 @@
       CHANMODE 0
       GUID {8D1D74E2-0F77-4A40-B649-57D4B4CD573E}
       <SOURCE VORBIS
-        FILE "C:\Users\sergi\Desktop\I Want to Break Free\Snare2.ogg"
+        FILE "Snare2.ogg"
       >
     >
   >
@@ -1270,7 +1375,7 @@
       FADEOUT 1 0.01 0 1 0 0 0
       MUTE 0 0
       COLOR 23043968 R
-      SEL 1
+      SEL 0
       IGUID {021E8015-AF95-4EFB-A5F1-7E1F135C7486}
       IID 1
       NAME Kick.ogg
