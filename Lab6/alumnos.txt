@@ -1,0 +1,6 @@
+SERGIO MOLINERO APARICIO
+DANIEL ILLANES MORILLAS
+
+- En el ejercicio 5, no hemos logrado obtener una implementación del plugin ReaSamplOmatic5000 con los samples especialmente satisfactoria.
+- En el ejercicio 6, hemos aplicado ReaPitch a la totalidad del fragmento vocal, reduciendo su volumen para obtener un efecto sutil.
+Además, implementamos el reverb en un track aparte, para aplicarlo únicamente en la parte vocal final.
